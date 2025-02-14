@@ -2,15 +2,20 @@
     background-color: #e15f41;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: #fff;
     color: #e15f41;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
-.navbar-brand:hover {
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
     color: #fff;
+}
+
+.text-colored {
+    color: #e15f41;
 }
 
 .roboto-normal {
@@ -59,4 +64,14 @@ body {
 
 #eventos h3.section-title {
     color: #e15f41;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #e15f41;
+    color: #fff;
+    font-style: italic;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #e15f41
 }
